@@ -61,8 +61,7 @@ const MyCanvas = props => {
 				onMouseDown={startDrawing}
 				onMouseUp={finishDrawing}
 				onMouseMove={draw}
-				ref={canvasRef}
-			/>
+				ref={canvasRef} />
 		</div>
 	);
 };

@@ -10,4 +10,4 @@ A small canvas so you can channel your inner Picasso for a moment.
 
 - In the example it is imported as MyCanvas
 
-- Pass brushThickness: int(1..30), colour: string('black','red' ...), lineCap: string props('round', 'square') to define the brush properties
+- Pass rerender: int(increment to clear the canvas) , brushThickness: int(1..30), colour: string('black','red' ...), lineCap: string props('round', 'square') to define the brush properties
